@@ -6,22 +6,6 @@ body{
 overflow-x: hidden !important;
 width: 100% !important;
 }
-/* .navbar-nav li a{
-float: right;
-color: #fff !important;
-}
-.navbar-brand img{
-width: 150px;
-margin-left: 30px;
-}
-.navbar-toggler{
-border: none !important;
-outline: none !important;
-}
-nav .bx-menu{
-color: #fff !important;
-font-size: 26px;
-} */
 .navbar-brand{
 letter-spacing: 5px;
 font-size: 30px !important;
@@ -64,13 +48,13 @@ display: block !important;
 }
 .group{
 margin: 0 0 2rem !important;
+padding: 15px 0;
 }
 .group{
 display: grid !important;
 grid-template-columns: repeat(2, 1fr) !important;
 }
 .text{
-/* display: flex; */
 justify-content: center;
 align-items: center;
 padding: 2rem;
