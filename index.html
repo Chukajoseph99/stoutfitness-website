@@ -10,6 +10,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<!-----AOS------>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- custom css file link  -->
 <link rel="stylesheet" href="style.css">
 </head>
@@ -17,10 +19,10 @@
 <body> 
 
 <!-- header section starts  -->
-<header>
-<a href="#" class="logo">STOUT FITNESS</a>
+<header >
+<a href="#" class="logo" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="400">STOUT FITNESS</a>
 <div id="menu" class="fas fa-bars"></div>
-<nav class="navbar">
+<nav class="navbar" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="400" >
 <ul>
 <li><a class="active" href="#home">home</a></li>
 <li><a href="#about">about</a></li>
@@ -34,25 +36,25 @@
 
 <!-- home section starts  -->
 <section class="home" id="home">
-<h1>STOUT FITNESS</h1>
-<p>next level health and fitness gym</p>
-<a href="#"><button class="btn">get started</button></a>
+<h1 data-aos="zoom-in" data-aos-easing="ease-in-out">STOUT FITNESS</h1>
+<p data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="800">next level health and fitness gym</p>
+<a data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="800" href="#"><button class="btn">get started</button></a>
 </section>
 <!----home section ends -------->
 
 <!----about section starts------>
 <section id="about" class="about">
 <div class="aboutSection">
-<div class="group">
+<div class="group" data-aos="fade-left">
 <img src="images/image1.jpg" class="img-fluid" >
 <div class="text">    
-<h3>Next Level Fitness</h3>
+<h3 >Next Level Fitness</h3>
 <p>Stout fitness gym is a state of the art fitness center dedicated to helping our clients build the perfect physique and also aim to improve mental health as well</p>
 <p>Your encouraged here to push yourself past the limit because we believe that we as human beings have limitless potential</p>
 </div>
 </div>
     
-<div class="group group-orderi">
+<div class="group group-orderi" data-aos="fade-right">
 <img src="images/image2.jpg" class="img-fluid">
 <div class="text">   
 <h3>Hardwork Beats Talent</h3>
@@ -61,7 +63,7 @@
 </div> 
 </div>
     
-<div class="group">
+<div class="group" data-aos="fade-left">
 <img src="images/image3.jpg" class="img-fluid">
 <div class="text">
 <h3>Be Inspired</h3>
@@ -70,7 +72,7 @@
 </div>
 </div>
 
-<div class="group group-orderii">
+<div class="group group-orderii" data-aos="fade-right">
 <img src="images/image4.jpg" class="img-fluid" > 
 <div class="text">   
 <h3>Keep Fit, Stay Strong</h3>
@@ -84,7 +86,7 @@
 
 <!-- Service section starts -->
 <section class="service" id="service">
-<h1 class="heading">our services</h1>
+<h1 class="heading" data-aos="zoom-out">our services</h1>
 
 <div class="container3-cols">
 
@@ -145,10 +147,10 @@
 
 <!-- plan section starts  -->
 <section class="plan" id="plan">
-<h1 class="heading">membership plan</h1>
+<h1 class="heading" data-aos="zoom-out">membership plan</h1>
 <div class="box-container">
 
-<div class="box">
+<div class="box" data-aos="zoom-in">
 <h3 class="title">basic</h3>
 <h3 class="price">$10<span>/mo</span></h3>
 <h3 class="month">3 months</h3>
@@ -162,7 +164,7 @@
 <a href="#"><button class="btn">check out</button></a>
 </div>
 
-<div class="box">
+<div class="box" data-aos="zoom-in">
 <h3 class="title">standard</h3>
 <h3 class="price">$20<span>/mo</span></h3>
 <h3 class="month">6 months</h3>
@@ -176,7 +178,7 @@
 <a href="#"><button class="btn">check out</button></a>
 </div>
 
-<div class="box">
+<div class="box" data-aos="zoom-in">
 <h3 class="title">premium</h3>
 <h3 class="price">$30<span>/mo</span></h3>
 <h3 class="month">12 months</h3>
@@ -222,7 +224,7 @@
 
 <!-- footer section starts  -->
 <section class="footer">
-    created by <a href="https://www.chukajoseph.net" target="_blank">chuka joseph</a> | all rights reserved.
+website designed and developed by <a href="https://www.chukajoseph.net" target="_blank">chuka joseph</a> | all rights reserved.
 </section>
 <!-- footer section ends -->
 
@@ -244,6 +246,11 @@
 <!-- custom js file link  -->
 <script src="main.js"></script>
 
-
+<!----Aos-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+// AOS.init();
+AOS.init({once:true});
+</script>
 </body>
 </html>
