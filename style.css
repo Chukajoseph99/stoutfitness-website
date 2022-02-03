@@ -91,7 +91,7 @@ header .navbar ul li{
 margin:0 1rem;
 }
 header .navbar ul li a{
-color:#000;
+color:#fff;
 font-size: 2rem;
 }
 header .navbar ul li a.active,
@@ -123,7 +123,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-flow: column;
-clip-path: polygon(0 0, 100% 16%, 100% 100%, 0 84%);
+/* clip-path: polygon(0 0, 100% 16%, 100% 100%, 0 84%); */
 }
 .home h1{
 font-size: 6rem;
@@ -371,7 +371,6 @@ html{
 font-size: 55%;
 }
 header .logo{
-color:#f05123;
 font-weight: bolder;
 }
 header #menu{
