@@ -33,3 +33,4 @@ $('.navbar').find(`[href="#${id}"]`).addClass('active');
 });
 
 })
+

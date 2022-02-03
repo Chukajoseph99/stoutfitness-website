@@ -19,6 +19,23 @@ html{
 font-size: 62.5%;
 overflow-x: hidden;
 }
+.homebtn{
+  cursor: pointer;
+  border:.2rem solid var(--crimson);
+  color:white;
+  background:var(--crimson);
+  padding:.5rem 3rem;
+  margin-top: 1rem;
+  position: relative;
+  z-index: 0;
+  font-size: 2rem;
+  border-radius: 20px;
+}
+.homebtn:hover{
+  color:var(--crimson);
+  background:black;
+  }
+
 .btn{
 cursor: pointer;
 border:.2rem solid var(--crimson);
@@ -229,6 +246,7 @@ width: 100%;
 .spantext{
 font-size:15px;
 }
+
 /*---Plan Section--*/
 .plan{
 min-height: 100vh;
